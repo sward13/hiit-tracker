@@ -1,0 +1,223 @@
+body {
+	margin: 0px;
+	background-color:#505050;
+}
+
+.body {
+	padding: 0px;
+	text-align: center;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+.main {
+	padding: 25px;
+	text-align: center;
+}
+
+.button-box {
+	height: 75px;
+}
+
+.setting-box {
+	height: 20px;
+}
+
+.inc-box {
+	height: 30px;
+}
+
+.dec-box {
+	height: 30px;
+}
+
+#mode {
+	height: 50px;
+	text-align: center;
+	font-size:2.5em;
+	font-weight: bold;
+	color:#E1E1E1;
+}
+#clock {
+	height: 150px;
+	text-align: center;
+	font-size:5.5em;
+	font-weight: bold;
+	color:#D2FD00;
+	
+	/*FD2D03*/
+	/* D2FD00*/
+}
+
+#details {
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#track {
+	height: 50px;
+	text-align: center;
+	font-size:1.5em;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 10px;
+	float: left;
+	color:#E1E1E1;
+}
+
+#remaining {
+	height: 50px;
+	text-align: left;
+	font-size:1.5em;
+	font-weight: bold;
+	color:#E1E1E1;
+}
+
+.contentRow {
+	float:left;
+	height: 65px;
+	text-align: left;
+	font-size:0.875em;
+	font-weight: bold;
+	color:#999;
+	width: 250px;
+}
+
+.settingsHeader {
+	float:left;
+	height: 65px;
+	text-align: left;
+	font-size:1.975em;
+	font-weight: bold;
+	color:#999;
+	width: 250px;
+}
+.rowText {
+	width: 125px;
+	text-align: right;
+	padding-right: 10px;
+	font-size:1.15em;
+	float:left;
+}
+
+.intCount {
+	width: 50px;
+	font-size:1.15em;
+	float:left;
+}
+
+.intTime {
+	width: 50px;
+	font-size:1.15em;
+	float:left;
+}
+
+.restTime {
+	width: 50px;
+	font-size:1.15em;
+	float:left;
+}
+
+.CountTime {
+	width: 50px;
+	font-size:1.15em;
+	float:left;
+}
+
+.butContainer {
+	height:75px;
+	width: 50px;
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+}
+
+.button {
+	margin-top: 25px;
+	border-top: 1px solid #cccccc;
+	background: #65a9d7;	
+	background: -webkit-gradient(linear, left top, left bottom, from(#505050), to(#D1D1D1));
+	background: -moz-linear-gradient(top, #505050, #D1D1D1);
+	padding: 20px 40px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 21px;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: middle;
+   }
+   
+.button:hover {
+   border-top-color: #cccccc;
+   background: #999999;
+   color: #ccc;
+   }
+   
+.button:active {
+   border-top-color: #cccccc;
+   background: #999999;
+   }
+   
+.smbutton {
+	margin-top: 25px;
+	border-top: 1px solid #cccccc;
+	background: #65a9d7;	
+	background: -webkit-gradient(linear, left top, left bottom, from(#505050), to(#D1D1D1));
+	background: -moz-linear-gradient(top, #505050, #D1D1D1);
+	padding: 2px 20px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: middle;
+   }
+   
+   #infowindow {
+    visibility: hidden;
+    position: absolute;
+    margin-left:-5px;
+    top: 20px;
+    z-index: 1337;
+    width: 260px;
+    height: 340px;
+    background: white;
+    color: #333;
+    border: 1px solid #999;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 6px;
+    font-weight: normal;
+    color: #999;
+    padding-left: 4px;
+    padding-top: -6px;
+    width: 12px;
+    height: 18px; 
+}
+
+.close:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+
+   

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>HiiTimer</title>
+	
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+<!--<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>-->
+<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" media="all" href="css/less.css"/>
+		
+		<meta name="viewport" content="width=device-width; initial-scale=1"/>
+
+		<!-- Add "maximum-scale=1" to fix the weird iOS auto-zoom bug on orientation changes. -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/timer.js"  language="javascript"></script>
+	</head>
+	<body>
+		<article>
+			<header>
+				<h1>HiiTimer</h1>
+			</header>
+			<div>
+				<h3><div id="mode">Interval Timer</div></h3>
+				<section>	
+					<header>
+						<h2><div id="clock">00:00</div></h2>
+					</header>
+					<div id="button-box" class="button-box"><a href="#" class="startButton" onClick="doTimer()">START</a></div>
+				</section>
+				<section>	
+					<header>
+						<div id="track"><h3>Intervals Remaining: </h3></div><h3><div id="remaining">8</div></h3>
+					</header>
+				</section>
+			</div>
+			<aside>
+				<header>
+					<a href="#" class="settingsButton" onClick="openSettings()">SETTINGS</a>
+				</header>
+			</aside>
+			<aside>A free, customizable timer for your high intensity interval training!</aside>
+
+			<footer>
+				<p>	&copy; 2012</p>
+			</footer>
+			<div id="settingsWindow">
+			<aside>
+					<a href="#" class="closeButton" onClick="closeSettings()">x</a>
+					<h3>Settings</h3>
+					<ul>
+						<li><div class="label">Intervals: </div><div class="value" id="intCount">8</div> <a href="#" class="adjust" onClick="incInt()">+</a> <a href="#" class="adjust" onClick="decInt()">-</a></li>
+						<li><div class="label">Interval Length: </div><div class="value" id="intTime">20</div> <a href="#" class="adjust" onClick="incIntTime()">+</a> <a href="#" class="adjust" onClick="decIntTime()">-</a></li>
+						<li><div class="label">Rest Length: </div><div class="value" id="restTime">10</div> <a href="#" class="adjust" onClick="incRest()">+</a> <a href="#" class="adjust" onClick="decRest()">-</a></li>
+						<li><div class="label">Warmup Length: </div><div class="value" id="CountTime">5</div> <a href="#" class="adjust" onClick="incCount()">+</a> <a href="#" class="adjust" onClick="decCount()">-</a></li>
+					</ul>
+			</aside>
+			</div>
+		</article>	
+		<!--<span class="one">MASTER</span><span class="two">TWO</span><span class="three">THREE</span><span class="four">FOUR</span>-->
+	</body>
+</html>
+
